@@ -1,10 +1,10 @@
 /*
 ============================================
-; Title: Assignment 3.3
+; Title: Assignment 3.4
 ; Author: Mike Goldberg
 ; Date: 07/21/2020
 ; Modified By: Mike Goldberg
-; Description: Passing Data through Routes
+; Description: Guarding Routes
 ;===========================================
 */
 

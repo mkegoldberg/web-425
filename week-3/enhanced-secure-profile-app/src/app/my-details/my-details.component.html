@@ -1,0 +1,20 @@
+<ul class="list-group">
+  <li class="list-group-item list-group-item-action">
+    <label>Full Name</label>
+    <div class="text-lg font-weight-bolder">{{ myProfile.fullName }}</div>
+  </li>
+  <li class="list-group-item list-group-item-action">
+    <label>Favorite Food</label>
+    <div class="text-lg font-weight-bolder">{{ myProfile.favoriteFood }}</div>
+  </li>
+  <li class="list-group-item list-group-item-action">
+    <label>Favorite Color</label>
+    <div class="text-lg font-weight-bolder">{{ myProfile.favoriteColor }}</div>
+  </li>
+  <li class="list-group-item list-group-item-action">
+    Key Words
+    <span *ngFor="let word of myProfile.keyWords">
+      {{ word }}
+    </span>
+  </li>
+</ul>
