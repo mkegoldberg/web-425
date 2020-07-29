@@ -27,7 +27,7 @@ export class ComposerDetailsComponent implements OnInit {
     this.composerId = parseInt(this.route.snapshot.paramMap.get("composerId"), 10);
 
     if (this.composerId) {
-      this.composer = composerService.getComposer(this.composerId);
+      this.composer = this.composerService.getComposer(this.composerId);
     }
   }
 

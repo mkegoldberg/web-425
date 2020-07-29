@@ -23,7 +23,7 @@ export class ComposerListComponent implements OnInit {
   composers: Array<IComposer>;
 
   constructor(private composerService: ComposerService) {
-    this.composers = composerService.getComposers()
+    this.composers = this.composerService.getComposers()
   }
 
   ngOnInit(): void { }
