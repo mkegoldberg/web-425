@@ -4,7 +4,7 @@
 ; Author: Mike Goldberg
 ; Date: 08/05/2020
 ; Modified By: Mike Goldberg
-; Description: Dialogues
+; Description: Dialogs
 ;===========================================
 */
 import { Injectable } from '@angular/core';
